@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BinkDogCoin
+Comment=BinkDogCoin P2P Cryptocurrency
+Comment[fr]=BinkDogCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BinkDogCoin, eşten eşe kriptografik sanal para birimi
+Exec=binkdogcoin-qt %u
+Terminal=false
+Type=Application
+Icon=binkdogcoin128
+MimeType=x-scheme-handler/binkdogcoin;
+Categories=Office;Finance;

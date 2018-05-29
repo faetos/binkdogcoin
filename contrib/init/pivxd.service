@@ -1,0 +1,26 @@
+[Unit]
+Description=BinkDogCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=binkdogcoin
+Group=binkdogcoin
+
+Type=forking
+PIDFile=/var/lib/binkdogcoind/binkdogcoind.pid
+
+ExecStart=/usr/bin/binkdogcoind -daemon -pid=/var/lib/binkdogcoind/binkdogcoind.pid \
+          -conf=/etc/binkdogcoin/binkdogcoin.conf -datadir=/var/lib/binkdogcoind
+
+ExecStop=-/usr/bin/binkdogcoin-cli -conf=/etc/binkdogcoin/binkdogcoin.conf \
+         -datadir=/var/lib/binkdogcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
