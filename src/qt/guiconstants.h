@@ -53,7 +53,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "BinkDogCoin"
-#define QAPP_ORG_DOMAIN "binkdogcoin.com"
+#define QAPP_ORG_DOMAIN "binkdogcoin.org"
 #define QAPP_APP_NAME_DEFAULT "BinkDogCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "BinkDogCoin-Qt-testnet"
 

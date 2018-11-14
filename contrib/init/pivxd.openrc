@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/binkdogcoin/.binkdogcoin" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/binkdogcoin/.binkdogcoin"
+if [ -d "/var/lib/pivx/.pivx" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/pivx/.pivx"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/binkdogcoind"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/pivxd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/binkdogcoin/binkdogcoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/binkdogcoind}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/binkdogcoind.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/pivx/pivx.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/pivxd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/pivxd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-binkdogcoin}
-BITCOIND_GROUP=${BITCOIND_GROUP:-binkdogcoin}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/binkdogcoind}
+BITCOIND_USER=${BITCOIND_USER:-pivx}
+BITCOIND_GROUP=${BITCOIND_GROUP:-pivx}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/pivxd}
 
-name="BinkDogCoin Core Daemon"
-description="BinkDogCoin crypto-currency p2p network daemon"
+name="PIVX Core Daemon"
+description="PIVX crypto-currency p2p network daemon"
 
-command="/usr/bin/binkdogcoind"
+command="/usr/bin/pivxd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run binkdogcoind."
+		eerror "ERROR: You must set a secure rpcpassword to run pivxd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"BinkDogCoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"PIVX Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

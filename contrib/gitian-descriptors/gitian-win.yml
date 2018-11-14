@@ -1,5 +1,5 @@
 ---
-name: "binkdogcoin-win-3.2"
+name: "binkdogcoin-win-1.5.7"
 enable_cache: true
 suites:
 - "trusty"
@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/binkdogcoin-project/binkdogcoin.git"
+- "url": "https://github.com/binkdogcoin/binkdogcoin.git"
   "dir": "binkdogcoin"
 files: []
 script: |

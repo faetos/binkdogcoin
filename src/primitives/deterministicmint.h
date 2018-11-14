@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The BinkDogCoin developers
+// Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BinkDogCoin_DETERMINISTICMINT_H
-#define BinkDogCoin_DETERMINISTICMINT_H
+#ifndef PIVX_DETERMINISTICMINT_H
+#define PIVX_DETERMINISTICMINT_H
 
 #include <libzerocoin/Denominations.h>
 #include <uint256.h>
@@ -64,4 +64,4 @@ public:
     };
 };
 
-#endif //BinkDogCoin_DETERMINISTICMINT_H
+#endif //PIVX_DETERMINISTICMINT_H

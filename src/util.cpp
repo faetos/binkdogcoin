@@ -107,7 +107,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// BinkDogCoin only features
+// PIVX only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -117,8 +117,8 @@ bool fLiteMode = false;
 bool fEnableSwiftTX = true;
 int nSwiftTXDepth = 5;
 // Automatic Zerocoin minting
-bool fEnableZeromint = true;
-int nZeromintPercentage = 10;
+bool fEnableZeromint = false; // disabled autominting of BINK->zBINK
+int nZeromintPercentage = 0;
 int nPreferredDenom = 0;
 const int64_t AUTOMINT_DELAY = (60 * 5); // Wait at least 5 minutes until Automint starts
 

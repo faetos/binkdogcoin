@@ -185,7 +185,7 @@ UniValue addnode(const UniValue& params, bool fHelp)
             "2. \"command\"  (string, required) 'add' to add a node to the list, 'remove' to remove a node from the list, 'onetry' to try a connection to the node once\n"
 
             "\nExamples:\n" +
-            HelpExampleCli("addnode", "\"192.168.0.634201}\" \"onetry\"") + HelpExampleRpc("addnode", "\"192.168.0.634201}\", \"onetry\""));
+            HelpExampleCli("addnode", "\"192.168.0.6:9009\" \"onetry\"") + HelpExampleRpc("addnode", "\"192.168.0.6:9009\", \"onetry\""));
 
     string strNode = params[0].get_str();
 
@@ -259,7 +259,7 @@ UniValue getaddednodeinfo(const UniValue& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:34201\",  (string) The BinkDogCoin server host and port\n"
+            "         \"address\" : \"192.168.0.201:18721\",  (string) The BinkDogCoin server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"
@@ -413,7 +413,7 @@ UniValue getnetworkinfo(const UniValue& params, bool fHelp)
             "  }\n"
             "  ,...\n"
             "  ],\n"
-            "  \"relayfee\": x.xxxxxxxx,                (numeric) minimum relay fee for non-free transactions in HLM/kb\n"
+            "  \"relayfee\": x.xxxxxxxx,                (numeric) minimum relay fee for non-free transactions in BINK/kb\n"
             "  \"localaddresses\": [                    (array) list of local addresses\n"
             "  {\n"
             "    \"address\": \"xxxx\",                 (string) network address\n"

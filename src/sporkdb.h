@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The BinkDogCoin developers
+// Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BinkDogCoin_CSPORKDB_H
-#define BinkDogCoin_CSPORKDB_H
+#ifndef PIVX_CSPORKDB_H
+#define PIVX_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //BinkDogCoin_CSPORKDB_H
+#endif //PIVX_CSPORKDB_H

@@ -5,16 +5,16 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.13.99
+!define VERSION 1.5.7
 !define COMPANY "BinkDogCoin Core project"
-!define URL https://www.binkdogcoin.com
+!define URL https://www.binkdogcoin.org
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/faetos/TURDS/binkdogcoin/diproton/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/faetos/TURDS/binkdogcoin/diproton/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/faetos/test1/binkdogcoin/lytix/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/faetos/test1/binkdogcoin/lytix/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/faetos/TURDS/binkdogcoin/diproton/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/faetos/test1/binkdogcoin/lytix/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "BinkDogCoin Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\binkdogcoin-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/faetos/TURDS/binkdogcoin/diproton/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/faetos/test1/binkdogcoin/lytix/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/faetos/TURDS/binkdogcoin/diproton/binkdogcoin-${VERSION}-win-setup.exe
+OutFile /home/faetos/test1/binkdogcoin/lytix/binkdogcoin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\BinkDogCoin
 !else
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/faetos/TURDS/binkdogcoin/diproton/release/binkdogcoin-qt
-    File /oname=COPYING.txt /home/faetos/TURDS/binkdogcoin/diproton/COPYING
-    File /oname=readme.txt /home/faetos/TURDS/binkdogcoin/diproton/doc/README_windows.txt
+    File /home/faetos/test1/binkdogcoin/lytix/release/binkdogcoin-qt
+    File /oname=COPYING.txt /home/faetos/test1/binkdogcoin/lytix/COPYING
+    File /oname=readme.txt /home/faetos/test1/binkdogcoin/lytix/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/faetos/TURDS/binkdogcoin/diproton/release/binkdogcoind
-    File /home/faetos/TURDS/binkdogcoin/diproton/release/binkdogcoin-cli
+    File /home/faetos/test1/binkdogcoin/lytix/release/binkdogcoind
+    File /home/faetos/test1/binkdogcoin/lytix/release/binkdogcoin-cli
     SetOutPath $INSTDIR\doc
-    File /r /home/faetos/TURDS/binkdogcoin/diproton/doc\*.*
+    File /r /home/faetos/test1/binkdogcoin/lytix/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd

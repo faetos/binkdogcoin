@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BinkDogCoin_MINTPOOL_H
-#define BinkDogCoin_MINTPOOL_H
+#ifndef PIVX_MINTPOOL_H
+#define PIVX_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -50,4 +50,4 @@ public:
 };
 
 
-#endif //BinkDogCoin_MINTPOOL_H
+#endif //PIVX_MINTPOOL_H

@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
+        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BINKs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BINK&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zHLM</source>
+        <source>Privacy Actions for zBINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2078,7 +2078,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send HLM to</source>
+        <source>Add destinations to send BINK to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2210,12 +2210,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 HLM</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 HLM</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2225,12 +2225,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 HLM to anonymize 10000 HLM</source>
+        <source>This option is the quickest and will cost about ~0.025 BINK to anonymize 10000 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 HLM to anonymize 10000 HLM</source>
+        <source>This option is moderately fast and will cost about 0.05 BINK to anonymize 10000 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2240,7 +2240,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 HLM per 10000 HLM you anonymize.</source>
+        <source>0.1 BINK per 10000 BINK you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2419,23 +2419,23 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming HLM which get automatically converted to zHLM via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming BINK which get automatically converted to zBINK via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zHLM</source>
+        <source>Percentage of autominted zBINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough HLM for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough BINK for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zHLM Denomination</source>
+        <source>Preferred Automint zBINK Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2605,7 +2605,7 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
     </message>
     <message>
         <location line="+43"/>
-        <source>HLM Balances</source>
+        <source>BINK Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2706,17 +2706,17 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
     </message>
     <message>
         <location line="+36"/>
-        <source>HLM:</source>
+        <source>BINK:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zHLM:</source>
+        <source>zBINK:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zHLM.
+        <source>Current percentage of zBINK.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2729,7 +2729,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked HLM or Masternode collaterals. These are excluded from zHLM minting.</source>
+        <source>Locked BINK or Masternode collaterals. These are excluded from zBINK minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2738,7 +2738,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 HLM</source>
+        <source>0.000 000 00 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2749,7 +2749,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked HLMs. These can be used for zHLM minting.</source>
+        <source>Unlocked BINKs. These can be used for zBINK minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2766,7 +2766,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zHLM are spendable.</source>
+These zBINK are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2777,7 +2777,7 @@ These zHLM are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zHLM, unconfirmed and immature zHLM included.</source>
+        <source>All available zBINK, unconfirmed and immature zBINK included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2807,7 +2807,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zHLM.
+        <source>Current percentage of zBINK.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2973,12 +2973,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>HLM which were anonymized via Zerocin Protocol</source>
+        <source>BINK which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin HLM (zHLM)</source>
+        <source>Zerocoin BINK (zBINK)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3014,7 +3014,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zHLM</source>
+        <source>zBINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3029,7 +3029,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 HLM</source>
+        <source>0.000 000 00 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3104,7 +3104,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zHLM for spending</source>
+        <source>Available (mature and spendable) zBINK for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3114,15 +3114,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zHLM for spending
+        <source>Available (mature and spendable) zBINK for spending
 
-zHLM are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zBINK are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zHLM</source>
+        <source>0 zBINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3213,7 +3213,7 @@ zHLM are mature when they have more than 20 confirmations AND more than 2 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zHLM</source>
+        <source>Total Balance including unconfirmed and immature zBINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,13 +3424,13 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     <message>
         <location line="+45"/>
         <location line="+3"/>
-        <source>zHLM is currently disabled due to maintenance.</source>
+        <source>zBINK is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+113"/>
-        <source>zHLM is currently undergoing maintenance.</source>
+        <source>zBINK is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3455,7 +3455,7 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zHLM in </source>
+        <source> zBINK in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4451,7 +4451,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 HLM</source>
+        <source>0 BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4521,12 +4521,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uHLMs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBINKs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uHLMs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uBINKs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4592,7 +4592,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized HLM</source>
+        <source>Anonymized BINK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5874,7 +5874,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 HLM.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 BINK.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6064,12 +6064,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6219,12 +6219,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BinkDogCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 HLM.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BINK.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 HLM.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BINK.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6284,8 +6284,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BinkDogCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>(34201 could be used only on mainnet)</source>
-        <translation type="unfinished">(34201 could be used only on mainnet)</translation>
+        <source>(18721 could be used only on mainnet)</source>
+        <translation type="unfinished">(18721 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6299,7 +6299,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BinkDogCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 34201 for mainnet)</source>
+        <source>(must be 18721 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6634,7 +6634,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BinkDogCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in HLM/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in BINK/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

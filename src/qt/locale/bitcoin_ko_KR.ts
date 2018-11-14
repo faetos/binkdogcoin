@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
-        <translation>BinkDogCoin는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 HLMs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BINKs from being stolen by malware infecting your computer.</source>
+        <translation>BinkDogCoin는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 BINKs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 HLM를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BINK&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 BINK를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1508,32 +1508,32 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 HLM 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 BINK 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 HLM 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 BINK 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 HLM to anonymize 10000 HLM</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 HLM 익명화에 약 ~0.025 HLM의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 BINK to anonymize 10000 BINK</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 BINK 익명화에 약 ~0.025 BINK의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 HLM to anonymize 10000 HLM</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 HLM 익명화에 약 0.05 HLM의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 BINK to anonymize 10000 BINK</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 BINK 익명화에 약 0.05 BINK의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 HLM per 10000 HLM you anonymize.</source>
-        <translation>10000 HLM 익명화에 0.1 HLM 가 듭니다.</translation>
+        <source>0.1 BINK per 10000 BINK you anonymize.</source>
+        <translation>10000 BINK 익명화에 0.1 BINK 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 HLM</source>
-        <translation>0 HLM</translation>
+        <source>0 BINK</source>
+        <translation>0 BINK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2750,12 +2750,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>승인 시간:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uHLMs로 설정되고,&lt;br /&gt;1000 uHLMs 안에는 최소 "킬로바이트당" 250 uHLMs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uBINKs로 설정되고,&lt;br /&gt;1000 uBINKs 안에는 최소 "킬로바이트당" 250 uBINKs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "total at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uHLMs로 설정되고,&lt;br /&gt;1000 uHLMs 안에는 전체에서 최소 "킬로바이트당" 250 uHLMs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "total at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uBINKs로 설정되고,&lt;br /&gt;1000 uBINKs 안에는 전체에서 최소 "킬로바이트당" 250 uBINKs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BinkDogCoin transactions than the network can process.</source>
@@ -3731,8 +3731,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 HLM.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 HLM로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BINK.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 BINK로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -3868,12 +3868,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (HLM/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (BINK/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (HLM/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (BINK/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4004,12 +4004,12 @@ rpcpassword=%s
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 HLM과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 BINK과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 HLM와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 BINK와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4056,8 +4056,8 @@ rpcpassword=%s
         <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(34201 could be used only on mainnet)</source>
-        <translation>(34201 은 메인넷에서만 사용될 수 있습니다)</translation>
+        <source>(18721 could be used only on mainnet)</source>
+        <translation>(18721 은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4068,8 +4068,8 @@ rpcpassword=%s
         <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 34201 for mainnet)</source>
-        <translation>(메인넷 일경우 34201)</translation>
+        <source>(must be 18721 for mainnet)</source>
+        <translation>(메인넷 일경우 18721)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4296,8 +4296,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in HLM/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (HLM/kB) (기본값: %s)</translation>
+        <source>Fee (in BINK/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (BINK/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

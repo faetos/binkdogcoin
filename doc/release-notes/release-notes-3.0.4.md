@@ -1,19 +1,19 @@
 BinkDogCoin Core version 3.0.4 is now available from:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/releases>
+  <https://github.com/binkdogcoin/binkdogcoin/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/issues>
+  <https://github.com/binkdogcoin/binkdogcoin/issues>
 
 
 Mandatory Update
 ==============
 
-BinkDogCoin Core v3.0.4 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zPIV protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI.
+BinkDogCoin Core v3.0.4 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zBINK protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI.
 
 Users will have a grace period to update their clients before versions prior to this release are no longer allowed to connect to this (and future) version(s).
 
@@ -77,12 +77,12 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### P2P Protocol and Network Code
-- #294 `27c0943` Add additional checks for txid for zpiv spend. (presstab)
+- #294 `27c0943` Add additional checks for txid for z spend. (presstab)
 - #301 `b8392cd` Refactor zPiv tx counting code. Add a final check in ConnectBlock() (presstab)
 - #306 `77dd55c` [Core] Don't send not-validated blocks (Mrs-X)
 - #312 `5d79bea` [Main] Update last checkpoint data (Fuzzbawls)
 - #325 `7d98ebe` Reindex zPiv blocks and correct stats. (presstab)
-- #327 `aa1235a` [Main] Don't limit zPIV spends from getting into the mempool (Fuzzbawls)
+- #327 `aa1235a` [Main] Don't limit zBINK spends from getting into the mempool (Fuzzbawls)
 - #329 `19b38b2` Update checkpoints. (presstab)
 - #331 `b1fb710` [Consensus] Bump protocol. Activate via Spork 15. (rejectedpromise)
 
@@ -91,7 +91,7 @@ git merge commit are mentioned.
 - #316 `ed192cf` [Minting] Better filtering of zPiv serials in miner. (presstab)
 
 ### GUI
-- #309 `f560ffc` [UI] Better error message when too much inputs are used for spending zPIV (Mrs-X)
+- #309 `f560ffc` [UI] Better error message when too much inputs are used for spending zBINK (Mrs-X)
 - #317 `b27cb72` [UI] Wallet repair option to resync from scratch (Mrs-X)
 - #323 `2b648be` [UI] Balance fix + bubble-help + usability improvements (Mrs-X)
 - #324 `8cdbb5d` disable negative confirmation numbers. (Mrs-X)
@@ -120,4 +120,4 @@ Thanks to everyone who directly contributed to this release:
 - rejectedpromise
 - aaronlangford31
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/binkdogcoin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/gjhiggins/diproton-translations/).

@@ -1,6 +1,6 @@
 [Protocol]
-exec=binkdogcoin-qt '%u'
-protocol=binkdogcoin
+exec=pivx-qt '%u'
+protocol=pivx
 input=none
 output=none
 helper=true

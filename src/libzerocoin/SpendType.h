@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The BinkDogCoin developers
+// Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BinkDogCoin_SPENDTYPE_H
-#define BinkDogCoin_SPENDTYPE_H
+#ifndef PIVX_SPENDTYPE_H
+#define PIVX_SPENDTYPE_H
 
 #include <cstdint>
 
@@ -16,4 +16,4 @@ namespace libzerocoin {
     };
 }
 
-#endif //BinkDogCoin_SPENDTYPE_H
+#endif //PIVX_SPENDTYPE_H

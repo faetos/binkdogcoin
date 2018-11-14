@@ -1,5 +1,5 @@
 ---
-name: "binkdogcoin-osx-3.2"
+name: "binkdogcoin-osx-1.5.7"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/binkdogcoin-project/binkdogcoin.git"
+- "url": "https://github.com/binkdogcoin/binkdogcoin.git"
   "dir": "binkdogcoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"

@@ -1,5 +1,5 @@
 // Copyright (c) 2014 The Bitcoin developers
-// Copyright (c) 2017 The BinkDogCoin developers
+// Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,6 +11,7 @@
 #include <assert.h>
 #include <boost/variant/apply_visitor.hpp>
 #include <boost/variant/static_visitor.hpp>
+#include <iostream>
 #include <sstream>
 #include <stdint.h>
 #include <string.h>
@@ -78,7 +79,6 @@ std::string DecodeBase58ToHex(const std::string& str) {
         // FAIL
         ss << "Failed with " << str << std::endl;
     }
-    std::cout << ss.str() << std::endl;
     return ss.str();
 }
 

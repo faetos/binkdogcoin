@@ -176,7 +176,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
+        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BINKs from being stolen by malware infecting your computer.</source>
         <translation>BinkDogCoin vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE HLM&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BINK&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE BINK&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1508,32 +1508,32 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 HLM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 BINK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 HLM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 BINK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 HLM to anonymize 10000 HLM</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 HLM for at anonymiser 10000 HLM</translation>
+        <source>This option is the quickest and will cost about ~0.025 BINK to anonymize 10000 BINK</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 BINK for at anonymiser 10000 BINK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 HLM to anonymize 10000 HLM</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 HLM for at anonymiser 10000 HLM</translation>
+        <source>This option is moderately fast and will cost about 0.05 BINK to anonymize 10000 BINK</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 BINK for at anonymiser 10000 BINK</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 HLM per 10000 HLM you anonymize.</source>
-        <translation>0.1 pr 10000 HLM for at tilsløre.</translation>
+        <source>0.1 BINK per 10000 BINK you anonymize.</source>
+        <translation>0.1 pr 10000 BINK for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -2701,8 +2701,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 HLM</source>
-        <translation>0 HLM</translation>
+        <source>0 BINK</source>
+        <translation>0 BINK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2745,12 +2745,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uHLMs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uHLM i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uHLMs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBINKs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBINK i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uBINKs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "total at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uHLMs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uHLM i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uHLMs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "total at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uBINKs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uBINK i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uBINKs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BinkDogCoin transactions than the network can process.</source>
@@ -3721,8 +3721,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 HLM.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1HLM.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BINK.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1BINK.</translation>
     </message>
 </context>
 <context>
@@ -3859,12 +3859,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in HLM/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in BINK/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in HLM/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in BINK/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3995,12 +3995,12 @@ For eksempel: alertnotify=Echo %% | mail - s "BinkDogCoin ALARM!" e-mail@adminis
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 HLM.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 BINK.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 HLM.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 BINK.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4047,8 +4047,8 @@ For eksempel: alertnotify=Echo %% | mail - s "BinkDogCoin ALARM!" e-mail@adminis
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(34201 could be used only on mainnet)</source>
-        <translation>(34201 kunne kun bruges på hovednettet)</translation>
+        <source>(18721 could be used only on mainnet)</source>
+        <translation>(18721 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4059,8 +4059,8 @@ For eksempel: alertnotify=Echo %% | mail - s "BinkDogCoin ALARM!" e-mail@adminis
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 34201 for mainnet)</source>
-        <translation>(skal være 34201 for hovednettet)</translation>
+        <source>(must be 18721 for mainnet)</source>
+        <translation>(skal være 18721 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4287,8 +4287,8 @@ For eksempel: alertnotify=Echo %% | mail - s "BinkDogCoin ALARM!" e-mail@adminis
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in HLM/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i HLM/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in BINK/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i BINK/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

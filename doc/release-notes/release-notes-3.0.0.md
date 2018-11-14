@@ -1,13 +1,13 @@
 BinkDogCoin Core version 3.0.0 is now available from:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/releases>
+  <https://github.com/binkdogcoin/binkdogcoin/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/issues>
+  <https://github.com/binkdogcoin/binkdogcoin/issues>
 
 Mandatory Update
 ==============
@@ -43,53 +43,53 @@ frequently tested on them.
 Notable Changes
 ===============
 
-Zerocoin (zHLM) Protocol
+Zerocoin (zBINK) Protocol
 ---------------------
 
-At long last, the zHLM release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
+At long last, the zBINK release is here and the zerocoin protocol has been fully implemented! This allows users to send transactions with 100% fungible coins and absolutely zero history or link-ability to their previous owners.
 
-The Zerocoin protocol allows user to convert (mint) their *PIV* to zerocoins, which we call *zHLM*. When zHLM are converted back to PIV there is no trail associated with the coins being sent, such as who originally minted those coins. Essentially the only thing the receiver of the zHLM transaction will see is that it came from the zerocoin protocol.
+The Zerocoin protocol allows user to convert (mint) their *PIV* to zerocoins, which we call *zBINK*. When zBINK are converted back to PIV there is no trail associated with the coins being sent, such as who originally minted those coins. Essentially the only thing the receiver of the zBINK transaction will see is that it came from the zerocoin protocol.
 
-### zHLM Denominations
-zHLM comes in specific denominations of 1, 5, 10, 50, 100, 500, 1000, and 5000. A denomination is a similar concept to paper currency, where you can hold a $100 bill but there is no available $99 bill for you to hold.
+### zBINK Denominations
+zBINK comes in specific denominations of 1, 5, 10, 50, 100, 500, 1000, and 5000. A denomination is a similar concept to paper currency, where you can hold a $100 bill but there is no available $99 bill for you to hold.
 
-Other implementations of the zerocoin protocol only allow for spending of one denomination/zerocoin at a time. The BinkDogCoin implementation of zerocoin allows users to spend any amount of zHLM they would like (with certain limitations). If a user held two denominations of 5 and they send 7.75 to a merchant, the wallet will automatically grab the two denominations of 5 and then issue 2.25 PIV in change to the spender. There is currently a limit of up to 6 individual zerocoin `coins` that can be combined into a spend, where each `coin` could be a different or similar denomination
+Other implementations of the zerocoin protocol only allow for spending of one denomination/zerocoin at a time. The BinkDogCoin implementation of zerocoin allows users to spend any amount of zBINK they would like (with certain limitations). If a user held two denominations of 5 and they send 7.75 to a merchant, the wallet will automatically grab the two denominations of 5 and then issue 2.25 PIV in change to the spender. There is currently a limit of up to 6 individual zerocoin `coins` that can be combined into a spend, where each `coin` could be a different or similar denomination
 
 The BinkDogCoin zerocoin implementation is structured in such a way that denominations aren't needed to be known by the average user.
 
 ### Fees
-zHLM transactions require more computation and disk space than typical BinkDogCoin transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zPiv, each minted denomination is charged a flat rate of 0.01 Piv. zPiv spends are not charged a transaction fee unless the change is minted into zPiv, see the *Minting Change* section for details on fees for zPiv spends with minted change.
+zBINK transactions require more computation and disk space than typical BinkDogCoin transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zPiv, each minted denomination is charged a flat rate of 0.01 Piv. zPiv spends are not charged a transaction fee unless the change is minted into zPiv, see the *Minting Change* section for details on fees for zPiv spends with minted change.
 
-### Converting HLM to zHLM (*zHLM Mint*)
-**GUI** - Conversion from HLM to zHLM can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of HLM you would like to convert and click `Mint Zerocoin`.
+### Converting BINK to zBINK (*zBINK Mint*)
+**GUI** - Conversion from BINK to zBINK can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of BINK you would like to convert and click `Mint Zerocoin`.
 
-**RPC** - Conversion from HLM to zHLM can be done using the `mintzerocoin` command.
+**RPC** - Conversion from BINK to zBINK can be done using the `mintzerocoin` command.
 
-**Automint** - The BinkDogCoin wallet is set to convert 10% of the wallets available HLM to zHLM automatically. This can be adjusted in the GUI within the Options dialog, which allows the preferred % to be adjusted as well as the ability to set the preferred zHLM denomination that will be minted. Automint is set to be triggered when additional blocks are added to the block chain and is programmed *not* to convert your coins all at once.
+**Automint** - The BinkDogCoin wallet is set to convert 10% of the wallets available BINK to zBINK automatically. This can be adjusted in the GUI within the Options dialog, which allows the preferred % to be adjusted as well as the ability to set the preferred zBINK denomination that will be minted. Automint is set to be triggered when additional blocks are added to the block chain and is programmed *not* to convert your coins all at once.
 
 Automint can be disabled by adding `enablezeromint=0` to the wallet configuration file. The preferred mint % and denomination can also be set by the configuration file using `zeromintpercentage=<n>` and `preferredDenom=<n>`.
 
-### Converting zHLM to HLM (*zHLM Spend*)
-Redeeming zHLM is done by converting it back to HLM. With the 3.0.0 software release, users are not able to send zHLM to each other directly in an atomic fashion.
+### Converting zBINK to BINK (*zBINK Spend*)
+Redeeming zBINK is done by converting it back to BINK. With the 3.0.0 software release, users are not able to send zBINK to each other directly in an atomic fashion.
 
-**GUI** - Conversion from zHLM to HLM can be done using the `Privacy Dialog` in the QT wallet. Enter a HLM address that you would like to Pay To, enter the amount of HLM the receiver should be sent, click `Spend Zerocoin`.
+**GUI** - Conversion from zBINK to BINK can be done using the `Privacy Dialog` in the QT wallet. Enter a BINK address that you would like to Pay To, enter the amount of BINK the receiver should be sent, click `Spend Zerocoin`.
 
-**RPC** - Conversion from zHLM to HLM can be done using the `spendzerocoin` command.
+**RPC** - Conversion from zBINK to BINK can be done using the `spendzerocoin` command.
 
 ### Advanced Use & Privacy Considerations
-**Security Level** - When spending zHLM, a user is prompted to enter a *Security Level* choosing from 1-100. In an indirect way, the Security Level parameter allows the user to choose how many coins to obfuscate their transaction with.
+**Security Level** - When spending zBINK, a user is prompted to enter a *Security Level* choosing from 1-100. In an indirect way, the Security Level parameter allows the user to choose how many coins to obfuscate their transaction with.
 
 A Security Level of 1 for example would take all of the minted coins in the blockchain before your mint was added to the blockchain, and would then add any coins that were minted within the next 10 blocks as well. A Security Level of 2 would do the same thing, except add the next 20 blocks worth of mints. A **Security Level of 100 will add the maximum amount of mints** up to the current end of the blockchain.
 
 The higher the Security Level, the more computation and time it will take to spend. Although it takes longer, a level of 100 is recommended for transactions that need maximum anonymity.
 
 
-**Minting Change** - The BinkDogCoin implementation of the zerocoin protocol also allows the spender to choose how to receive their leftover change from a Spend transaction. For maximum anonymity it is recommended that the spender choose to receive the change in zHLM, which prevents situations where change from a zHLM spend that is redeemed in HLM is accidentally mixed with the rest of the users PIV, thus linking transactions back to a BinkDogCoin address.
+**Minting Change** - The BinkDogCoin implementation of the zerocoin protocol also allows the spender to choose how to receive their leftover change from a Spend transaction. For maximum anonymity it is recommended that the spender choose to receive the change in zBINK, which prevents situations where change from a zBINK spend that is redeemed in BINK is accidentally mixed with the rest of the users PIV, thus linking transactions back to a BinkDogCoin address.
 
-Since the lowest denomination of zHLM is 1, and a fee is required to mint zHLM, in most situations a high fee will be paid to mint change. The fee is the remainder of the change that cannot be converted back to zHLM. For example this would mean a spending a denomination of 10 that yields change of 6.75 in change, would issue zHLM denominations of 5 and 1 back to the sender with the remaining 0.75 that is unmintable being contributed as a fee.
+Since the lowest denomination of zBINK is 1, and a fee is required to mint zBINK, in most situations a high fee will be paid to mint change. The fee is the remainder of the change that cannot be converted back to zBINK. For example this would mean a spending a denomination of 10 that yields change of 6.75 in change, would issue zBINK denominations of 5 and 1 back to the sender with the remaining 0.75 that is unmintable being contributed as a fee.
 
-**zHLM Control**
-Similar to the concept of Coin Control in the QT wallet, zHLM Control allows users to select exactly which zHLM mints they would like to spend. This gives a flexibility to choose which denominations can be picked for a spend that wouldn't otherwise be available.
+**zBINK Control**
+Similar to the concept of Coin Control in the QT wallet, zBINK Control allows users to select exactly which zBINK mints they would like to spend. This gives a flexibility to choose which denominations can be picked for a spend that wouldn't otherwise be available.
 
 
 Tor Service Integration Improvements
@@ -110,7 +110,7 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### Broad Features
-- #264 `15e84e5` zHLM is here! (Fuzzbawls Mrs-X Presstab Spock BinkDogCoin)
+- #264 `15e84e5` zBINK is here! (Fuzzbawls Mrs-X Presstab Spock BinkDogCoin)
 
 ### P2P Protocol and Network Code
 - #242 `0ecd77f` [P2P] Improve TOR service connectivity (Fuzzbawls)
@@ -132,4 +132,4 @@ Thanks to everyone who directly contributed to this release:
 - amirabrams
 - presstab
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/binkdogcoin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/gjhiggins/diproton-translations/).

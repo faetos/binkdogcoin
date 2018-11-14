@@ -9,6 +9,7 @@
 #include "init.h"
 #include "wallet.h"
 #include "primitives/deterministicmint.h"
+#include "zpivchain.h"
 
 using namespace libzerocoin;
 
@@ -29,10 +30,10 @@ CzPIVWallet::CzPIVWallet(std::string strWalletFile)
             hashSeed = Hash(seed.begin(), seed.end());
             if (pwalletMain->AddDeterministicSeed(seed)) {
                 if (walletdb.EraseZPIVSeed_deprecated()) {
-                    LogPrintf("%s: Updated zHLM seed databasing\n", __func__);
+                    LogPrintf("%s: Updated zBINK seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
-                    LogPrintf("%s: failed to remove old zHLM seed\n", __func__);
+                    LogPrintf("%s: failed to remove old zBINK seed\n", __func__);
                 }
             }
         }

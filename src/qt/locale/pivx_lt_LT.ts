@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your BinkDogCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų BinkDogCoin adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų PIVX adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your BinkDogCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų BinkDogCoin adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų PIVX adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar BinkDogCoin išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar PIVX išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a BinkDogCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Įveskite Pivx adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The BinkDogCoin address to encrypt</source>
-        <translation>BinkDogCoin adresas, kurį norite užšifruoti</translation>
+        <source>The PIVX address to encrypt</source>
+        <translation>PIVX adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this BinkDogCoin address</source>
-        <translation>Užšifruoti šio BinkDogCoin adreso privatų raktą</translation>
+        <source>Encrypt the private key for this PIVX address</source>
+        <translation>Užšifruoti šio PIVX adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -645,16 +645,16 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>BinkDogCoin Core</source>
-        <translation>BinkDogCoin Core</translation>
+        <source>PIVX Core</source>
+        <translation>PIVX Core</translation>
     </message>
     <message>
-        <source>Send coins to a BinkDogCoin address</source>
-        <translation>Siųsti monetas į BinkDogCoin adresą</translation>
+        <source>Send coins to a PIVX address</source>
+        <translation>Siųsti monetas į PIVX adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and binkdogcoin: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir binkdogcoin URI)</translation>
+        <source>Request payments (generates QR codes and pivx: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir pivx URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About BinkDogCoin Core</source>
-        <translation>&amp;Apie BinkDogCoin Core</translation>
+        <source>&amp;About PIVX Core</source>
+        <translation>&amp;Apie PIVX Core</translation>
     </message>
     <message>
-        <source>Show information about BinkDogCoin Core</source>
-        <translation>Rodyti informaciją apie BinkDogCoin Core</translation>
+        <source>Show information about PIVX Core</source>
+        <translation>Rodyti informaciją apie PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for BinkDogCoin</source>
-        <translation>Keisti BinkDogCoin konfigūravimo parinktis</translation>
+        <source>Modify configuration options for PIVX</source>
+        <translation>Keisti PIVX konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your BinkDogCoin addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo BinkDogCoin adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your PIVX addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo PIVX adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BinkDogCoin addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais BinkDogCoin adresais</translation>
+        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais PIVX adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a BinkDogCoin: URI or payment request</source>
-        <translation>Atidaryti BinkDogCoin: URI arba mokėjimo prašymą</translation>
+        <source>Open a PIVX: URI or payment request</source>
+        <translation>Atidaryti PIVX: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the BinkDogCoin Core help message to get a list with possible BinkDogCoin command-line options</source>
-        <translation>Rodyti BinkDogCoin Core žinyną, kad gautumėte sąrašą su galimomis BinkDogCoin komandinės eilutės parinktimis</translation>
+        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
+        <translation>Rodyti PIVX Core žinyną, kad gautumėte sąrašą su galimomis PIVX komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>BinkDogCoin Core client</source>
-        <translation>BinkDogCoin Core piniginė</translation>
+        <source>PIVX Core client</source>
+        <translation>PIVX Core piniginė</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to BinkDogCoin network</source>
-        <translation><numerusform>%n aktyvių prisijungimų BinkDogCoin tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų BinkDogCoin tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų BinkDogCoin tinkle ()</numerusform></translation>
+        <source>%n active connection(s) to PIVX network</source>
+        <translation><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PIVX tinkle ()</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (binkdogcoin.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (binkdogcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (pivx.conf).</translation>
     </message>
 </context>
 <context>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid BinkDogCoin address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis BinkDogCoin adresas.</translation>
+        <source>The entered address "%1" is not a valid PIVX address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis PIVX adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>BinkDogCoin Core</source>
-        <translation>BinkDogCoin Core</translation>
+        <source>PIVX Core</source>
+        <translation>PIVX Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About BinkDogCoin Core</source>
-        <translation>Apie BinkDogCoin Core</translation>
+        <source>About PIVX Core</source>
+        <translation>Apie PIVX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1278,16 +1278,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to BinkDogCoin Core.</source>
-        <translation>Sveiki atvykę į BinkDogCoin Core</translation>
+        <source>Welcome to PIVX Core.</source>
+        <translation>Sveiki atvykę į PIVX Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where BinkDogCoin Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur BinkDogCoin Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur PIVX Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>BinkDogCoin Core will download and store a copy of the BinkDogCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>BinkDogCoin Core atsisiųs ir saugos BinkDogCoin blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PIVX Core atsisiųs ir saugos PIVX blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1298,8 +1298,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>BinkDogCoin Core</source>
-        <translation>BinkDogCoin Core</translation>
+        <source>PIVX Core</source>
+        <translation>PIVX Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1440,12 +1440,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BinkDogCoin addresses after it matures.
-To Add: enter percentage to give and BinkDogCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
+To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus BinkDogCoin adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir BinkDogCoin adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus PIVX adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir PIVX adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1804,12 +1804,12 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Leisti įeinančius ryšius</translation>
     </message>
     <message>
-        <source>Automatically start BinkDogCoin after logging in to the system.</source>
-        <translation>Automatiškai paleisti BinkDogCoin prisijungus prie sistemos.</translation>
+        <source>Automatically start PIVX after logging in to the system.</source>
+        <translation>Automatiškai paleisti PIVX prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start BinkDogCoin on system login</source>
-        <translation>&amp;Paleisti BinkDogCoin sistemai įsijungiant</translation>
+        <source>&amp;Start PIVX on system login</source>
+        <translation>&amp;Paleisti PIVX sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1828,14 +1828,14 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting BinkDogCoin.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "BinkDogCoin".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "PIVX".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</source>
+https://www.transifex.com/pivx-project/pivx-project-translations</source>
         <translation>Trūksta kalbos arba vertimas nebaigtas? Padėkite prisidėdami prie vertimų čia: 
-https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</translation>
+https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1858,8 +1858,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the BinkDogCoin network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie BinkDogCoin tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie PIVX tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1989,16 +1989,16 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current BinkDogCoin balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis BinkDogCoin balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis PIVX balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
         <source>zPIV Balance</source>
         <translation>zPIV Balansas</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BinkDogCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su BinkDogCoin tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su PIVX tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2057,8 +2057,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>AutoMint šiuo metu įgalintas ir nustatytas</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in binkdogcoin.conf.</source>
-        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' binkdogcoin.conf faile.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in pivx.conf.</source>
+        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' pivx.conf faile.</translation>
     </message>
     </context>
 <context>
@@ -2078,8 +2078,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BinkDogCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su BinkDogCoin tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su PIVX tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>0</source>
@@ -2371,8 +2371,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the BinkDogCoin RPC console.</source>
-        <translation>Sveiki atvykę į BinkDogCoin RPC konsolę.</translation>
+        <source>Welcome to the PIVX RPC console.</source>
+        <translation>Sveiki atvykę į PIVX RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -2688,8 +2688,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BinkDogCoin address to sign the message with</source>
-        <translation>BinkDogCoin adresas, kuriuo pasirašyti žinute</translation>
+        <source>The PIVX address to sign the message with</source>
+        <translation>PIVX adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2712,16 +2712,16 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BinkDogCoin address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio BinkDogCoin adreso savininkas</translation>
+        <source>Sign the message to prove you own this PIVX address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio PIVX adreso savininkas</translation>
     </message>
     <message>
-        <source>The BinkDogCoin address the message was signed with</source>
-        <translation>BinkDogCoin adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The PIVX address the message was signed with</source>
+        <translation>PIVX adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BinkDogCoin address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu BinkDogCoin adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu PIVX adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2759,8 +2759,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>BinkDogCoin Core</source>
-        <translation>BinkDogCoin Core</translation>
+        <source>PIVX Core</source>
+        <translation>PIVX Core</translation>
     </message>
     </context>
 <context>
@@ -2990,7 +2990,7 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
     </message>
     </context>
 <context>
-    <name>binkdogcoin-core</name>
+    <name>pivx-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>
@@ -3024,8 +3024,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of BinkDogCoin Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės BinkDogCoin Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės PIVX Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3256,8 +3256,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Piniginė užrakinta.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart BinkDogCoin Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite BinkDogCoin Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite PIVX Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -1,19 +1,19 @@
 [Unit]
-Description=BinkDogCoin's distributed currency daemon
+Description=PIVX's distributed currency daemon
 After=network.target
 
 [Service]
-User=binkdogcoin
-Group=binkdogcoin
+User=pivx
+Group=pivx
 
 Type=forking
-PIDFile=/var/lib/binkdogcoind/binkdogcoind.pid
+PIDFile=/var/lib/pivxd/pivxd.pid
 
-ExecStart=/usr/bin/binkdogcoind -daemon -pid=/var/lib/binkdogcoind/binkdogcoind.pid \
-          -conf=/etc/binkdogcoin/binkdogcoin.conf -datadir=/var/lib/binkdogcoind
+ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
+          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
 
-ExecStop=-/usr/bin/binkdogcoin-cli -conf=/etc/binkdogcoin/binkdogcoin.conf \
-         -datadir=/var/lib/binkdogcoind stop
+ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
+         -datadir=/var/lib/pivxd stop
 
 Restart=always
 PrivateTmp=true

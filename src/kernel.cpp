@@ -12,6 +12,7 @@
 #include "timedata.h"
 #include "util.h"
 #include "stakeinput.h"
+#include "zpivchain.h"
 
 using namespace std;
 
@@ -29,7 +30,7 @@ unsigned int getIntervalVersion(bool fTestNet)
         return MODIFIER_INTERVAL;
 }
 
-/* FIXME: GJH BinkDogCoin-specific checkpoint value */
+/* FIXME: GJH PIVX-specific checkpoint value */
 // Hard checkpoints of stake modifiers to ensure they are deterministic
 static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of(0, 0xfd11f4e7u);
@@ -82,8 +83,8 @@ static bool SelectBlockFromCandidates(
     uint64_t nStakeModifierPrev,
     const CBlockIndex** pindexSelected)
 {
-    bool fModifierV2 = false;
-    bool fFirstRun = true;
+    //bool fModifierV2 = true;
+    //bool fFirstRun = false;
     bool fSelected = false;
     uint256 hashBest = 0;
     *pindexSelected = (const CBlockIndex*)0;
@@ -95,7 +96,7 @@ static bool SelectBlockFromCandidates(
         if (fSelected && pindex->GetBlockTime() > nSelectionIntervalStop)
             break;
 
-        /* FIXME: GJH Inappropriate for BinkDogCoin
+        /* NOTE: GJH Inappropriate for BinkDogCoin
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         if (fFirstRun){
             fModifierV2 = pindex->nHeight >= Params().ModifierUpgradeBlock();
@@ -106,7 +107,7 @@ static bool SelectBlockFromCandidates(
         if (mapSelectedBlocks.count(pindex->GetBlockHash()) > 0)
             continue;
 
-        /* FIXME: GJH Inappropriate for BinkDogCoin
+        /* NOTE: GJH Inappropriate for BinkDogCoin
         // compute the selection hash by hashing an input that is unique to that block
         uint256 hashProof;
         if(fModifierV2)
@@ -117,7 +118,7 @@ static bool SelectBlockFromCandidates(
         uint256 hashProof ;
 
         CDataStream ss(SER_GETHASH, 0);
-        /* FIXME: GJH Inappropriate for BinkDogCoin
+        /* NOTE: GJH Inappropriate for BinkDogCoin
         ss << hashProof << nStakeModifierPrev;
         */
         ss << pindex->GetBlockHash() << nStakeModifierPrev;
@@ -323,7 +324,7 @@ bool Stake(CStakeInput* stakeInput, unsigned int nBits, unsigned int nTimeBlockF
     bool fSuccess = false;
     unsigned int nTryTime = 0;
     int nHeightStart = chainActive.Height();
-    int nHashDrift = 45;
+    int nHashDrift = 30;
     CDataStream ssUniqueID = stakeInput->GetUniqueness();
     CAmount nValueIn = stakeInput->GetValue();
     for (int i = 0; i < nHashDrift; i++) //iterate the hashing

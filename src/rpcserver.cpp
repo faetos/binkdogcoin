@@ -116,7 +116,7 @@ static inline int64_t roundint64(double d)
 CAmount AmountFromValue(const UniValue& value)
 {
     double dAmount = value.get_real();
-    if (dAmount <= 0.0 || dAmount > 21000000.0)
+    if (dAmount <= 0.0 || dAmount > 100000000.0)
         throw JSONRPCError(RPC_TYPE_ERROR, "Invalid amount");
     CAmount nAmount = roundint64(dAmount * COIN);
     if (!MoneyRange(nAmount))
@@ -353,7 +353,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* BinkDogCoin features */
+        /* PIVX features */
         {"binkdogcoin", "masternode", &masternode, true, true, false},
         {"binkdogcoin", "listmasternodes", &listmasternodes, true, true, false},
         {"binkdogcoin", "getmasternodecount", &getmasternodecount, true, true, false},
@@ -450,11 +450,11 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false, false, true},
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false, false, true},
         {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false, false, false},
-        {"zerocoin", "getzhlmseed", &getzhlmseed, false, false, true},
-        {"zerocoin", "setzhlmseed", &setzhlmseed, false, false, true},
+        {"zerocoin", "getzseed", &getzseed, false, false, true},
+        {"zerocoin", "setzseed", &setzseed, false, false, true},
         {"zerocoin", "generatemintlist", &generatemintlist, false, false, true},
-        {"zerocoin", "searchdzhlm", &searchdzhlm, false, false, true},
-        {"zerocoin", "dzhlmstate", &dzhlmstate, false, false, true}
+        {"zerocoin", "searchdz", &searchdz, false, false, true},
+        {"zerocoin", "dzstate", &dzstate, false, false, true}
 
 #endif // ENABLE_WALLET
 };
@@ -625,7 +625,7 @@ std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
-           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:34203/\n";
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:18725/\n";
 }
 
 void RPCRegisterTimerInterface(RPCTimerInterface *iface)

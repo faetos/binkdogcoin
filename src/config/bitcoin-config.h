@@ -12,16 +12,16 @@
 #define CLIENT_VERSION_BUILD 0
 
 /* Version is release */
-#define CLIENT_VERSION_IS_RELEASE false
+#define CLIENT_VERSION_IS_RELEASE true
 
 /* Major version */
-#define CLIENT_VERSION_MAJOR 0
+#define CLIENT_VERSION_MAJOR 1
 
 /* Minor version */
-#define CLIENT_VERSION_MINOR 13
+#define CLIENT_VERSION_MINOR 5
 
 /* Build revision */
-#define CLIENT_VERSION_REVISION 99
+#define CLIENT_VERSION_REVISION 7
 
 /* Version is release */
 #define COPYRIGHT_YEAR 2018
@@ -143,7 +143,7 @@
 /* #undef HAVE_LIBCRYPT32 */
 
 /* Define to 1 if you have the `crypto' library (-lcrypto). */
-#define HAVE_LIBCRYPTO 1
+/* #undef HAVE_LIBCRYPTO */
 
 /* Define to 1 if you have the `gdi32' library (-lgdi32). */
 /* #undef HAVE_LIBGDI32 */
@@ -284,13 +284,13 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.binkdogcoin.com"
+#define PACKAGE_BUGREPORT "www.binkdogcoin.org"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "BinkDogCoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "BinkDogCoin Core 0.13.99"
+#define PACKAGE_STRING "BinkDogCoin Core 1.5.7"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "binkdogcoin"
@@ -299,7 +299,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.13.99"
+#define PACKAGE_VERSION "1.5.7"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */

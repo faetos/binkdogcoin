@@ -1,5 +1,5 @@
 ---
-name: "binkdogcoin-aarch64-3.2"
+name: "binkdogcoin-aarch64-1.5.7"
 enable_cache: true
 suites:
 - "xenial"
@@ -25,7 +25,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/binkdogcoin-project/binkdogcoin.git"
+- "url": "https://github.com/binkdogcoin/binkdogcoin.git"
   "dir": "binkdogcoin"
 files: []
 script: |

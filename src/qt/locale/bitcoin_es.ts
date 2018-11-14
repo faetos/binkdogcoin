@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HLMs from being stolen by malware infecting your computer.</source>
-        <translation>BinkDogCoin se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus HLMs no sean robados mediante malware de su ordenador.</translation>
+        <source>BinkDogCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BINKs from being stolen by malware infecting your computer.</source>
+        <translation>BinkDogCoin se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus BINKs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HLM&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS HLM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BINK&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS BINK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zHLM and Obfuscation</source>
-        <translation>Privacidad con zHLM y Ofuscación</translation>
+        <source>Privacy Action for zBINK and Obfuscation</source>
+        <translation>Privacidad con zBINK y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1528,32 +1528,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 HLM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 BINK</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 HLM</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 HLM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 BINK</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 BINK</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 HLM to anonymize 10000 HLM</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 HLM para anonimizar 10000 HLM</translation>
+        <source>This option is the quickest and will cost about ~0.025 BINK to anonymize 10000 BINK</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 BINK para anonimizar 10000 BINK</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 HLM to anonymize 10000 HLM</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 HLM para anonimizar 10000 HLM.</translation>
+        <source>This option is moderately fast and will cost about 0.05 BINK to anonymize 10000 BINK</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 BINK para anonimizar 10000 BINK.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 HLM per 10000 HLM you anonymize.</source>
-        <translation>0.1 HLM por 10000 HLM que anonimizas.</translation>
+        <source>0.1 BINK per 10000 BINK you anonymize.</source>
+        <translation>0.1 BINK por 10000 BINK que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1696,16 +1696,16 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming HLM which get automatically converted to zHLM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de HLMs entrantes que serán automáticamente convertidos a zHLM a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming BINK which get automatically converted to zBINK via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de BINKs entrantes que serán automáticamente convertidos a zBINK a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zHLM</source>
-        <translation>Porcentaje de zHLM autogenerados</translation>
+        <source>Percentage of autominted zBINK</source>
+        <translation>Porcentaje de zBINK autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough HLM for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes HLM disponibles para esta denominación</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough BINK for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes BINK disponibles para esta denominación</translation>
     </message>
     <message>
         <source>Connect to the BinkDogCoin network through a SOCKS5 proxy.</source>
@@ -1839,8 +1839,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>HLM Balances</source>
-        <translation>Balances HLM</translation>
+        <source>BINK Balances</source>
+        <translation>Balances BINK</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -2741,8 +2741,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 HLM</source>
-        <translation>0 HLM</translation>
+        <source>0 BINK</source>
+        <translation>0 BINK</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2785,12 +2785,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uHLMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uHLMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uHLMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uBINKs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uBINKs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uBINKs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uHLMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uHLMs in fee,&lt;br /&gt;while "total at least" pays 1000 uHLMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uHLMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uHLMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uHLMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uBINKs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uBINKs in fee,&lt;br /&gt;while "total at least" pays 1000 uBINKs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uBINKs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uBINKs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uBINKs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for BinkDogCoin transactions than the network can process.</source>
@@ -3761,8 +3761,8 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 HLM.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 HLM.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BINK.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 BINK.</translation>
     </message>
 </context>
 <context>
@@ -3898,12 +3898,12 @@ https://www.transifex.com/binkdogcoin-project/binkdogcoin-project-translations</
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en HLM/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en BINK/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in HLM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en HLM/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in BINK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en BINK/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4034,12 +4034,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "BinkDogCoin Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 HLM.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 BINK.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 HLM.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 HLM.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 BINK.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 BINK.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4086,8 +4086,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "BinkDogCoin Alert" admin@foo.com
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(34201 could be used only on mainnet)</source>
-        <translation>(34201 puede ser utilizado solo en mainnet)</translation>
+        <source>(18721 could be used only on mainnet)</source>
+        <translation>(18721 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4098,8 +4098,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "BinkDogCoin Alert" admin@foo.com
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 34201 for mainnet)</source>
-        <translation>(debe ser 34201 para un mainnet)</translation>
+        <source>(must be 18721 for mainnet)</source>
+        <translation>(debe ser 18721 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4326,8 +4326,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "BinkDogCoin Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in HLM/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en HLM/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in BINK/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en BINK/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

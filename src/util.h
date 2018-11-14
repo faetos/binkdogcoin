@@ -31,7 +31,7 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//BinkDogCoin only features
+//PIVX only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;

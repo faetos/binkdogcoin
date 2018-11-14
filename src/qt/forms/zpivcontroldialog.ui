@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Select zHLM to Spend</string>
+   <string>Select zBINK to Spend</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
    <item>
@@ -59,7 +59,7 @@
        <item row="1" column="0">
         <widget class="QLabel" name="labelZPiv">
          <property name="text">
-          <string>zHLM</string>
+          <string>zBINK</string>
          </property>
         </widget>
        </item>
@@ -157,12 +157,12 @@
        </column>
        <column>
         <property name="text">
-         <string notr="true">zHLM ID</string>
+         <string notr="true">zBINK ID</string>
         </property>
        </column>
        <column>
         <property name="text">
-         <string notr="true">zHLM Version</string>
+         <string notr="true">zBINK Version</string>
         </property>
        </column>
        <column>

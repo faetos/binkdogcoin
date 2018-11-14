@@ -1,13 +1,13 @@
 BinkDogCoin Core version 2.3.1 is now available from:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/releases>
+  <https://github.com/binkdogcoin/binkdogcoin/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/binkdogcoin-project/binkdogcoin/issues>
+  <https://github.com/binkdogcoin/binkdogcoin/issues>
 
 How to Upgrade
 ==============
@@ -99,7 +99,7 @@ Result: (for other sets):
 
 Examples:
 > binkdogcoin-cli startmasternode "alias" true "my_mn"
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "startmasternode", "params": ["alias" true "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:34203/
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "startmasternode", "params": ["alias" true "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:18725/
 ```
 
 ##### `preparebudget` & `submitbudget` Commands #####
@@ -134,7 +134,7 @@ Result:
 
 Examples:
 > binkdogcoin-cli mnbudgetvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnbudgetvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:34203/
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnbudgetvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:18725/
 ```
 
 ##### `getbudgetinfo` Command #####
@@ -176,7 +176,7 @@ Result:
 
 Examples:
 > binkdogcoin-cli getbudgetinfo
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetinfo", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:34203/
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetinfo", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:18725/
 ```
 
 #### Masternode network protocol layer reporting ####
@@ -210,4 +210,4 @@ Thanks to everyone who directly contributed to this release:
 - Mrs-X
 - amirabrams
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/binkdogcoin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/gjhiggins/diproton-translations/).

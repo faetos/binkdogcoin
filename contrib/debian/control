@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.binkdogcoin.org
-Vcs-Git: git://github.com/BinkDogCoin-Project/BinkDogCoin.git
-Vcs-Browser: http://github.com/BinkDogCoin-Project/BinkDogCoin
+Vcs-Git: git://github.com/binkdogcoin/binkdogcoin
+Vcs-Browser: http://github.com/binkdogcoin/binkdogcoin
 
 Package: binkdogcoind
 Architecture: any
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Pivx-Qt, a GUI for BinkDogCoin based on Qt.
+ This package provides BinkDogCoin-Qt, a GUI for BinkDogCoin based on Qt.

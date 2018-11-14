@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The BinkDogCoin developers
+// Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BinkDogCoin_ZPIVTRACKER_H
-#define BinkDogCoin_ZPIVTRACKER_H
+#ifndef PIVX_ZPIVTRACKER_H
+#define PIVX_ZPIVTRACKER_H
 
 #include "primitives/zerocoin.h"
 #include <list>
@@ -48,4 +48,4 @@ public:
     void Clear();
 };
 
-#endif //BinkDogCoin_ZPIVTRACKER_H
+#endif //PIVX_ZPIVTRACKER_H

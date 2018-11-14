@@ -1,25 +1,25 @@
-# /etc/conf.d/binkdogcoind: config file for /etc/init.d/binkdogcoind
+# /etc/conf.d/pivxd: config file for /etc/init.d/pivxd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/binkdogcoin/binkdogcoin.conf"
+#BITCOIND_CONFIGFILE="/etc/pivx/pivx.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/binkdogcoind"
+#BITCOIND_PIDDIR="/var/run/pivxd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/binkdogcoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pivxd.pid"
 
-# Where to write binkdogcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/binkdogcoind"
+# Where to write pivxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/pivxd"
 
-# User and group to own binkdogcoind process
-#BITCOIND_USER="binkdogcoin"
-#BITCOIND_GROUP="binkdogcoin"
+# User and group to own pivxd process
+#BITCOIND_USER="pivx"
+#BITCOIND_GROUP="pivx"
 
-# Path to binkdogcoind executable
-#BITCOIND_BIN="/usr/bin/binkdogcoind"
+# Path to pivxd executable
+#BITCOIND_BIN="/usr/bin/pivxd"
 
-# Nice value to run binkdogcoind under
+# Nice value to run pivxd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

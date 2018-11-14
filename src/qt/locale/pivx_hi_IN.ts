@@ -324,7 +324,7 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>binkdogcoin-core</name>
+    <name>pivx-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

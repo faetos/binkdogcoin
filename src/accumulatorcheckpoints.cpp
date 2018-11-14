@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The BinkDogCoin developers
+// Copyright (c) 2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -54,7 +54,9 @@ namespace AccumulatorCheckpoints
                     return false;
                 }
                 CBigNum bn = 0;
+
                 bn.SetHex(vDenomValue.get_str());
+
                 checkpoint.insert(std::make_pair(denom, bn));
             }
 
