@@ -1,5 +1,5 @@
 ---
-name: "binkdogcoin-aarch64-1.5.7"
+name: "binkdogcoin-aarch64-1.7.0"
 enable_cache: true
 suites:
 - "xenial"

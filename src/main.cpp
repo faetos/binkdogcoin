@@ -1810,28 +1810,28 @@ int64_t GetBlockValue(int nHeight)
 {
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         // set testnet PoW period reward
-        if (nHeight < 499999) {
-            return static_cast<int64_t>(30 * COIN);
-        } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 499999) {
-            return static_cast<int64_t>(30 * COIN);
+        if (nHeight < 99999) {
+            return static_cast<int64_t>(10 * COIN);
+        } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 99999) {
+            return static_cast<int64_t>(10 * COIN);
         } else {
-            return static_cast<int64_t>(30 * COIN);
+            return static_cast<int64_t>(10 * COIN);
         }
 
     }
 
     //int64_t nSubsidy = 0;
     if (nHeight == 0) {
-    } else if (nHeight < 499999) {
-        return static_cast<int64_t>(30 * COIN);
-    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 499999) {
-        return static_cast<int64_t>(30 * COIN);
+    } else if (nHeight < 99999) {
+        return static_cast<int64_t>(10 * COIN);
+    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 99999) {
+        return static_cast<int64_t>(10 * COIN);
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
-        return static_cast<int64_t>(30 * COIN);
+        return static_cast<int64_t>(10 * COIN);
     } else {
-        return static_cast<int64_t>(30 * COIN);
+        return static_cast<int64_t>(10 * COIN);
     }
-    return static_cast<int64_t>(30 * COIN);
+    return static_cast<int64_t>(10 * COIN);
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZPIVStake)
@@ -1853,10 +1853,10 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     } else if (nHeight > 200) {
         ret = blockValue / (100 / 50);
     } else {
-        //When zPIV is staked, masternode gets 15 BINK
-        ret = 15 * COIN;
+        //When zPIV is staked, masternode gets 5 BINK
+        ret = 5 * COIN;
         if (isZPIVStake)
-            ret = 15 * COIN;
+            ret = 5 * COIN;
     }
 
     return ret;

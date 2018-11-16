@@ -58,10 +58,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000b566aa7ea1df8e640ec34daf43826e2d661679984eb6763c79cc2a157ed"));
+    (0, uint256("0x0000063c711700807164f57e9db4347669a569cceb386dafeb9901c34b1638a3"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1541189603, // * UNIX timestamp of last checkpoint block
+    1542388633, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -69,19 +69,19 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256("0x00000eb231753f9d0e4416f0ffdc3a4203463d161e3ede2af57a37f971149fe6"));
+    (0, uint256("0x000008a8f382055c16c4a9d9111ed72c7026f466aabf52f56e07a087ace99199"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1541189603,
+    1542388633,
     0,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of
-    (0, uint256("0x1bfa33757173b14190298f47b7e079fa8c9eeba14b01646b6bb3e5f983c49de5"));
+    (0, uint256("0x25dadd0e3925833d40fc3becec6556cb7bc6d14ee45ef25542050923734d5659"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1541189603,
+    1542388633,
     0,
     100};
 
@@ -121,20 +121,26 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
     genesis.vtx.push_back(txNew);
     {
 	//Dev - Governance start
-        txNew.vout[0].nValue = 53337171117334;
-        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("8p2Kso1HYUUzbKzPjk6cqsuLt65y94ydgF"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+        txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("72iTFEifRs83inxF9f8fQhpURgxSrSS9Fw"))) << OP_EQUALVERIFY << OP_CHECKSIG;
 	genesis.vtx.push_back(txNew);
-	txNew.vout[0].nValue = 33371711343;
-        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("8pjhs4DBNYLtsJ5ApGnkePnaFWWAX6MyaA"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+	txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("6jNxw3D3gzCjShdQLLhC1khUMSN64gE7Fq"))) << OP_EQUALVERIFY << OP_CHECKSIG;
 genesis.vtx.push_back(txNew);
-        txNew.vout[0].nValue = 33371173343;
-        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("8tjcjzkrtdaxmn43Z7WnBu47iqbmZJ87Nh"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+        txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("6gnAK5YWL5HgbJ88X1ZT1z4WyBwccivC7H"))) << OP_EQUALVERIFY << OP_CHECKSIG;
 genesis.vtx.push_back(txNew);
-        txNew.vout[0].nValue = 33311173343;
-        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("8wJ51eDEtq1VgHBmg384upGJxzE2Rjco8i"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+        txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("6m9KnaFxHMJgmfYH85F4Acmfrz4Q5qzXLK"))) << OP_EQUALVERIFY << OP_CHECKSIG;
 genesis.vtx.push_back(txNew);
-        txNew.vout[0].nValue = 3337713343;
-        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("8xag7xZ3LPeTrTSiCvH3oCeiV6v7iy8aUa"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+        txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("6ede16pWasg8KVfm7ENjeQc2cckVWacTxE"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+genesis.vtx.push_back(txNew);
+        txNew.vout[0].nValue = 100000000000000;
+        txNew.vout[0].scriptPubKey = CScript() << OP_DUP << OP_HASH160 << ParseHex(DecodeBase58ToHex(std::string("6qNTpovirHMKzB4hdaEBsikkfpM6HF8jow"))) << OP_EQUALVERIFY << OP_CHECKSIG;
+
+
+
 
     }
     genesis.hashPrevBlock = 0;
@@ -144,7 +150,7 @@ genesis.vtx.push_back(txNew);
 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward, const string addr1, const string addr2, const string addr3)
 {
-    const char* pszTimestamp = "Bitcoin Block 548453 - 0000000000000000001b91550dcea3ca9ebb5ddba3d2a502e9343b040adccf7a at 1541189603";
+    const char* pszTimestamp = "Bitcoin Block 550321 - 0000000000000000000a0177bf9fc4ad4c92a61f9ab84dbf8fdbfaaa349414e4 at 2018-11-16 16:35:46";
     const CScript genesisOutputScript = CScript() << OP_2 << ParseHex(DecodeBase58ToHex(addr1)) << ParseHex(DecodeBase58ToHex(addr2)) << ParseHex(DecodeBase58ToHex(addr3)) << OP_3 << OP_CHECKMULTISIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 };
@@ -161,10 +167,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x5f;
-        pchMessageStart[1] = 0x2a;
-        pchMessageStart[2] = 0xc3;
-        pchMessageStart[3] = 0xb4;
+        pchMessageStart[0] = 0x2f;
+        pchMessageStart[1] = 0x24;
+        pchMessageStart[2] = 0x53;
+        pchMessageStart[3] = 0xb8;
         vAlertPubKey = ParseHex("0x"); // Disabled
         nDefaultPort = 18721;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // BinkDogCoin starting difficulty is 1 / 2^12
@@ -181,7 +187,7 @@ public:
         nMaxMoneyOut = 100000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 500000; //  1 per minute  - 14 days @ 1440 per day
+        nLastPOWBlock = 100000; //  1 per minute  - 14 days @ 1440 per day
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
         nZerocoinStartHeight = 71000; // (PIVX: 863787, Phore 90000)
@@ -197,8 +203,8 @@ public:
         nRejectOldSporkKey = 1527811200; // (PIVX: 1527811200) //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
 
         genesis = CreateGenesisBlock(
-                    1541189603,                          // nTime
-                    413568,                               // nNonce
+                    1542388633,                          // nTime
+                    1701943,                               // nNonce
                     0x1e0ffff0,                          // nBits
                     3,                                   // nVersion
                    treasuryDeposit,                      // genesisReward (treasury deposit)
@@ -236,8 +242,8 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x00000b566aa7ea1df8e640ec34daf43826e2d661679984eb6763c79cc2a157ed"));
-            assert(genesis.hashMerkleRoot == uint256("0x7b02fc9f323240060af198e3f7a1bf1fe0b2bf98aff74f4db637a8cc132c4fd0"));
+            assert(hashGenesisBlock == uint256("0x0000063c711700807164f57e9db4347669a569cceb386dafeb9901c34b1638a3"));
+            assert(genesis.hashMerkleRoot == uint256("0x9d297802ffddeb9af12d4bcb324d0faf3a76ce66ba9fa513d4aeaa8a5ca471a2"));
         }
 
 
@@ -250,11 +256,11 @@ public:
 
 
         // BinkDogCoin addresses start with '8 or 9'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,19);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,14);
         // BinkDogCoin script addresses start with '3'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,11);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,12);
         // BinkDogCoin private keys start with '7' (uncompressed) or 'V' (compressed)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,17);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,18);
         // BinkDogCoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         // BinkDogCoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
@@ -314,10 +320,10 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0xf0;
-        pchMessageStart[1] = 0xa0;
-        pchMessageStart[2] = 0x0c;
-        pchMessageStart[3] = 0x0e;
+        pchMessageStart[0] = 0xf4;
+        pchMessageStart[1] = 0x20;
+        pchMessageStart[2] = 0x7c;
+        pchMessageStart[3] = 0x0b;
         vAlertPubKey = ParseHex("");
         bnProofOfWorkLimit = ~uint256(0) >> 1; // 0x207fffff, BinkDogCoin testnet starting difficulty
         nSubsidyHalvingInterval = 210240;
@@ -328,7 +334,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // BinkDogCoin: 1 day
         nTargetSpacing = 60;  // BinkDogCoin: 1 minute
-        nLastPOWBlock = 500000;
+        nLastPOWBlock = 100000;
         nMaturity = 15;
         nMasternodeCountDrift = 2;
         // nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
@@ -347,8 +353,8 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis = CreateGenesisBlock(
-                    1541189603,                          // nTime
-                    190964,                              // nNonce
+                    1542388633,                          // nTime
+                    377935,                              // nNonce
                     0x1e0ffff0,                          // nBits
                     3,                                   // nVersion
                     treasuryDeposit,                     // genesisReward (treasury deposit)
@@ -384,8 +390,8 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x00000eb231753f9d0e4416f0ffdc3a4203463d161e3ede2af57a37f971149fe6"));
-            assert(genesis.hashMerkleRoot == uint256("0x912be2ce156bce6699066a82d63dd70742fa7516e294b89ed65fc1014399af3e"));
+            assert(hashGenesisBlock == uint256("0x000008a8f382055c16c4a9d9111ed72c7026f466aabf52f56e07a087ace99199"));
+            assert(genesis.hashMerkleRoot == uint256("0x2a5f0ba615f84ce85e2dfa17f2623536a71481df173010f36fa85d83e4ee47ab"));
         }
 
         vFixedSeeds.clear();
@@ -399,11 +405,11 @@ public:
 
 
         // Testnet BinkDogCoin addresses start with 'X'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,10);
         // Testnet BinkDogCoin script addresses start with 'Y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,22);
         // Testnet private keys start with 'X' (uncompressed) or 'c' (compressed)
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,9);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,5);
         // Testnet BinkDogCoin BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         // Testnet BinkDogCoin BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
@@ -462,8 +468,8 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis = CreateGenesisBlock(
-                    1541189603,                          // nTime
-                    19,                                   // nNonce
+                    1542388633,                          // nTime
+                    20,                                   // nNonce
                     0x207fffff,                          // nBits
                     3,                                   // nVersion
                     treasuryDeposit,                     // genesisReward (treasury deposit)
@@ -499,8 +505,8 @@ public:
             LogPrintf(" time: %u\n", genesis.nTime);
             LogPrintf(" hash: 0x%s\n", genesis.GetHash().ToString().c_str());
             LogPrintf(" merklehash: 0x%s\n", genesis.hashMerkleRoot.ToString().c_str());
-            assert(hashGenesisBlock == uint256("0x1bfa33757173b14190298f47b7e079fa8c9eeba14b01646b6bb3e5f983c49de5"));
-            assert(genesis.hashMerkleRoot == uint256("0x7b02fc9f323240060af198e3f7a1bf1fe0b2bf98aff74f4db637a8cc132c4fd0"));
+            assert(hashGenesisBlock == uint256("0x25dadd0e3925833d40fc3becec6556cb7bc6d14ee45ef25542050923734d5659"));
+            assert(genesis.hashMerkleRoot == uint256("0x9d297802ffddeb9af12d4bcb324d0faf3a76ce66ba9fa513d4aeaa8a5ca471a2"));
         }
 
 
