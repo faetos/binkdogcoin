@@ -9,8 +9,6 @@ It will be Proof of Stake after a 500,000 block Proof of Work period with master
 
 More information at [binkdogcoin.org](http://www.binkdogcoin.org) - when ready
 
-Live Oct 31, 2018 - announcement this week
-
 ------------------------
 
 5000 BINK for Masternodes
