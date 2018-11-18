@@ -22,6 +22,3 @@ More information at [binkdogcoin.org](http://www.binkdogcoin.org) - when ready
 15 confirmations maturity for mined or staked rewards
 
 -------------------------
-
-
-DISCORD auto-invite - https://discord.gg/zDFrBSF
