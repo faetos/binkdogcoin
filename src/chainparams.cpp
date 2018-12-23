@@ -246,13 +246,8 @@ public:
             assert(genesis.hashMerkleRoot == uint256("0x9d297802ffddeb9af12d4bcb324d0faf3a76ce66ba9fa513d4aeaa8a5ca471a2"));
         }
 
+        vSeeds.push_back(CDNSSeedData("dns01", "lytixna03.lytixchain.org"));
 
-        vSeeds.push_back(CDNSSeedData("dns01", "dnsseed01.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns02", "dnsseed02.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns03", "dnsseed03.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns04", "dnsseed04.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns05", "dnsseed05.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns06", "dnsseed06.binkdogcoin.org"));
 
 
         // BinkDogCoin addresses start with '8 or 9'
@@ -396,12 +391,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("dns01", "dnsseed01.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns02", "dnsseed02.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns03", "dnsseed03.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns04", "dnsseed04.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns05", "dnsseed05.binkdogcoin.org"));
-        vSeeds.push_back(CDNSSeedData("dns06", "dnsseed06.binkdogcoin.org"));
+        vSeeds.push_back(CDNSSeedData("dns01", "lytixna03.lytixchain.org"));
+
 
 
         // Testnet BinkDogCoin addresses start with 'X'
