@@ -1820,7 +1820,7 @@ int64_t GetBlockValue(int nHeight)
 
     }
 
-    //int64_t nSubsidy = 0;
+    int64_t nSubsidy = 0;
     if (nHeight == 0) {
     } else if (nHeight < 99999) {
         return static_cast<int64_t>(10 * COIN);
