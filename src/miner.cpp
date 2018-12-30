@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The BinkDogCoin developers
+// Copyright (c) 2018 The Lytix developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -40,7 +40,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// BinkDogCoinMiner
+// LytixMiner
 //
 
 //
@@ -117,11 +117,27 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         pblock->nVersion = static_cast<int32_t>(GetArg("-blockversion", pblock->nVersion));
 
     // Make sure to create the correct block version after zerocoin is enabled
+    // disdis - 12292018 - testing rollback of version hard fork on testnet first
+    // split testnet andmainnet to test some things
     bool fZerocoinActive = GetAdjustedTime() >= Params().Zerocoin_StartTime();
-    if (fZerocoinActive)
+    CBlockIndex* pindexPrev = chainActive.Tip();
+    const int nHeight = pindexPrev->nHeight + 1;
+    const int fblock = GetBlockValue(nHeight);
+    const int testnetPOW = 1000;
+    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
+
+    	if (fblock > testnetPOW)
+        	pblock->nVersion = 4;
+    else
+        pblock->nVersion = 3;
+    }
+
+    else { if (fZerocoinActive)
+
         pblock->nVersion = 4;
     else
         pblock->nVersion = 3;
+	}
 
     // Create coinbase tx
     CMutableTransaction txNew;
@@ -276,7 +292,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                     continue;
                 }
 
-                /* NOTE: GJH inappropriate for BinkDogCoin
+                /* NOTE: GJH inappropriate for Lytix
                 //Check for invalid/fraudulent inputs. They shouldn't make it through mempool, but check anyways.
                 if (invalid_out::ContainsOutPoint(txin.prevout)) {
                     LogPrintf("%s : found invalid input %s in tx %s", __func__, txin.prevout.ToString(), tx.GetHash().ToString());
@@ -558,7 +574,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("BinkDogCoinMiner : generated block is stale");
+            return error("LytixMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -578,7 +594,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     if (!ProcessNewBlock(state, NULL, pblock)) {
         if (pblock->IsZerocoinStake())
             pwalletMain->zpivTracker->RemovePending(pblock->vtx[1].GetHash());
-        return error("BinkDogCoinMiner : ProcessNewBlock, block not accepted");
+        return error("LytixMiner : ProcessNewBlock, block not accepted");
     }
 
     for (CNode* node : vNodes) {
@@ -594,9 +610,9 @@ int nMintableLastCheck = 0;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrint("debug", "BinkDogCoinMiner started\n");
+    LogPrint("debug", "LytixMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("binkdogcoin-miner");
+    RenameThread("lytix-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -647,44 +663,44 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         unsigned int nTransactionsUpdatedLast = mempool.GetTransactionsUpdated();
         CBlockIndex* pindexPrev = chainActive.Tip();
         if (!pindexPrev) {
-            LogPrint("debug", "BinkDogCoinMiner bailing, no pindexPrev\n");
+            LogPrint("debug", "LytixMiner bailing, no pindexPrev\n");
             continue;
         }
         unique_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey, pwallet, fProofOfStake));
         if (!pblocktemplate.get()) {
-            LogPrint("debug", "BinkDogCoinMiner bailing, no pblocktemplate got\n");
+            LogPrint("debug", "LytixMiner bailing, no pblocktemplate got\n");
             continue;
         } else {
-            LogPrint("debug", "BinkDogCoinMiner proceeding with pblocktemplate.\n");
+            LogPrint("debug", "LytixMiner proceeding with pblocktemplate.\n");
         }
         CBlock* pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrint("debug", "BinkDogCoinMiner skipping PoS section 4\n");
+        LogPrint("debug", "LytixMiner skipping PoS section 4\n");
         //Stake miner main
         if (fProofOfStake) {
-            LogPrint("debug", "BinkDogCoinMiner : proof-of-stake block found %s \n", pblock->GetHash().ToString().c_str());
+            LogPrint("debug", "LytixMiner : proof-of-stake block found %s \n", pblock->GetHash().ToString().c_str());
             if (pblock->IsZerocoinStake()) {
                 //Find the key associated with the zerocoin that is being staked
                 libzerocoin::CoinSpend spend = TxInToZerocoinSpend(pblock->vtx[1].vin[0]);
                 CBigNum bnSerial = spend.getCoinSerialNumber();
                 CKey key;
                 if (!pwallet->GetZerocoinKey(bnSerial, key)) {
-                    LogPrint("debug", "%s: failed to find zBINK with serial %s, unable to sign block\n", __func__, bnSerial.GetHex());
+                    LogPrint("debug", "%s: failed to find zLYTX with serial %s, unable to sign block\n", __func__, bnSerial.GetHex());
                     continue;
                 }
 
                 //Sign block with the zPIV key
                 if (!SignBlockWithKey(*pblock, key)) {
-                    LogPrint("debug", "BinkDogCoinMiner(): Signing new block with zBINK key failed \n");
+                    LogPrint("debug", "LytixMiner(): Signing new block with zLYTX key failed \n");
                     continue;
                 }
             } else if (!SignBlock(*pblock, *pwallet)) {
-                LogPrint("debug", "BinkDogCoinMiner(): Signing new block with UTXO key failed \n");
+                LogPrint("debug", "LytixMiner(): Signing new block with UTXO key failed \n");
                 continue;
             }
 
-            LogPrint("debug", "BinkDogCoinMiner : proof-of-stake block was signed %s \n", pblock->GetHash().ToString().c_str());
+            LogPrint("debug", "LytixMiner : proof-of-stake block was signed %s \n", pblock->GetHash().ToString().c_str());
             SetThreadPriority(THREAD_PRIORITY_NORMAL);
             ProcessBlockFound(pblock, *pwallet, reservekey);
             SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -692,7 +708,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrint("debug", "Running BinkDogCoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrint("debug", "Running LytixMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -700,7 +716,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         //
         int64_t nStart = GetTime();
         uint256 hashTarget = uint256().SetCompact(pblock->nBits);
-        LogPrint("debug", "Running BinkDogCoinMiner with hashTarget %0x\n", hashTarget.GetCompact());
+        LogPrint("debug", "Running LytixMiner with hashTarget %0x\n", hashTarget.GetCompact());
         while (true) {
             unsigned int nHashesDone = 0;
 
@@ -711,7 +727,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                 if (hash <= hashTarget) {
                     // Found a solution
                     SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                    LogPrint("debug", "BinkDogCoinMiner:\n");
+                    LogPrint("debug", "LytixMiner:\n");
                     LogPrint("debug", "proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                     ProcessBlockFound(pblock, *pwallet, reservekey);
                     SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -785,10 +801,10 @@ void static ThreadBitcoinMiner(void* parg)
     } catch (std::exception& e) {
         LogPrint("debug", "ThreadBitcoinMiner() exception");
     } catch (...) {
-        LogPrint("debug", "ThreadBinkDogCoinMiner() exception");
+        LogPrint("debug", "ThreadLytixMiner() exception");
     }
 
-    LogPrint("debug", "ThreadBinkDogCoinMiner exiting\n");
+    LogPrint("debug", "ThreadLytixMiner exiting\n");
 }
 
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
