@@ -124,20 +124,12 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
     const int nHeight = pindexPrev->nHeight + 1;
     const int fblock = GetBlockValue(nHeight);
     const int testnetPOW = 1000;
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
 
-    	if (fblock > testnetPOW)
+   if (fblock > testnetPOW)
         	pblock->nVersion = 4;
     else
         pblock->nVersion = 3;
-    }
-
-    else { if (fZerocoinActive)
-
-        pblock->nVersion = 4;
-    else
-        pblock->nVersion = 3;
-	}
+    
 
     // Create coinbase tx
     CMutableTransaction txNew;

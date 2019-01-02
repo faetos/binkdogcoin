@@ -182,12 +182,12 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // BinkDogCoin: 1 day
         nTargetSpacing = 60;  // BinkDogCoin: 1 minute
-        nMaturity = 15;
+        nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 100000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100000; //  1 per minute  - 14 days @ 1440 per day
+        nLastPOWBlock = 300; //  1 per minute  - 14 days @ 1440 per day
         //if the lowest block height (vSortedByTimestamp[0]) is >= switch height, use new modifier calc
         // nModifierUpdateBlock = 0; // (PIVX: 615800)
         nZerocoinStartHeight = 710000; // (PIVX: 863787, Phore 90000)
@@ -329,8 +329,8 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 24 * 60 * 60; // BinkDogCoin: 1 day
         nTargetSpacing = 60;  // BinkDogCoin: 1 minute
-        nLastPOWBlock = 100000;
-        nMaturity = 15;
+        nLastPOWBlock = 300;
+        nMaturity = 10;
         nMasternodeCountDrift = 2;
         // nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 100000000 * COIN;

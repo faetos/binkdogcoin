@@ -1810,9 +1810,9 @@ int64_t GetBlockValue(int nHeight)
 {
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         // set testnet PoW period reward
-        if (nHeight < 99999) {
+        if (nHeight < 300) {
             return static_cast<int64_t>(10 * COIN);
-        } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 99999) {
+        } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 300) {
             return static_cast<int64_t>(10 * COIN);
         } else {
             return static_cast<int64_t>(10 * COIN);
@@ -1822,9 +1822,9 @@ int64_t GetBlockValue(int nHeight)
 
     int64_t nSubsidy = 0;
     if (nHeight == 0) {
-    } else if (nHeight < 99999) {
+    } else if (nHeight < 300) {
         return static_cast<int64_t>(10 * COIN);
-    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 99999) {
+    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 300) {
         return static_cast<int64_t>(10 * COIN);
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
         return static_cast<int64_t>(10 * COIN);
